@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 0 45px;
+  animation: fadeIn 1s ease-in-out;
+}
+body {
+  background-color: #031e15;
+  font-family: "Cormorant Infant", sans-serif;
+
+  color: white;
+}
+.wrapper {
+  overflow: hidden;
+  position: relative;
+  min-height: 100vh;
+}
+h1 {
+  font-weight: 700;
+  font-size: 30px !important;
+  margin-bottom: 10px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

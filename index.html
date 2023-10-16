@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Үлпөт тойго чакыруу</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Cormorant+Infant:300,300italic,regular,italic,500,500italic,600,600italic,700,700italic"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/core.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="decor decor__one"></div>
+      <section class="container">
+        <div class="main">
+          <img class="main__image" src="images/main.jpg" alt="main" />
+          <img
+            class="main__decor"
+            src="images/main-decor.svg"
+            alt="main-decor"
+          />
+        </div>
+      </section>
+      <section class="invitation container">
+        <h1>Чынгыз & Айчүрөк</h1>
+        <h2>Урматтуу коноктор!</h2>
+        <p>
+          Сиздерди балдарыбыздын үйлөнүү-үлпөт тоюна арналган салтанатка келип,
+          ак дастoркондун үстүндө бата берип, кадырлуу коногубуз болуп кетүүгө
+          чакырабыз!
+        </p>
+      </section>
+      <section class="calendar container">
+        <h2>26 - ноябрь / 17:00</h2>
+        <div class="calendar__block">
+          <div class="calendar__inner">
+            <span class="title">пн</span>
+            <span class="title">вт</span>
+            <span class="title">ср</span>
+            <span class="title">чт</span>
+            <span class="title">пт</span>
+            <span class="title">сб</span>
+            <span class="title">вс</span>
+            <span>30</span>
+            <span>31</span>
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+            <span>8</span>
+            <span>9</span>
+            <span>10</span>
+            <span>11</span>
+            <span>12</span>
+            <span>13</span>
+            <span>14</span>
+            <span>15</span>
+            <span>16</span>
+            <span>17</span>
+            <span>18</span>
+            <span>19</span>
+            <span>20</span>
+            <span>21</span>
+            <span>22</span>
+            <span>23</span>
+            <span>24</span>
+            <span>25</span>
+            <span class="curr__date">
+              <img src="images/heart.svg" alt="heart" />
+              <span>26</span>
+            </span>
+            <span>27</span>
+            <span>28</span>
+            <span>29</span>
+            <span>30</span>
+          </div>
+        </div>
+      </section>
+      <section class="address container">
+        <div class="figure">
+          <span
+            >Дарегибиз: <br />
+            Бишкек шаары</span
+          >
+          <h2>Ресторан “ASTRO”</h2>
+          <span>Мадиева,к-7</span>
+          <img class="logo" src="images/two-gis.svg" alt="2gis" />
+        </div>
+        <a
+          class="dg-widget-link"
+          href="http://2gis.kg/bishkek/firm/70000001055132178/center/74.64454650878908,42.818526183652054/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap"
+          >Посмотреть на карте Бишкека</a
+        >
+        <div class="dg-widget-link">
+          <a
+            href="http://2gis.kg/bishkek/firm/70000001055132178/photos/70000001055132178/center/74.64454650878908,42.818526183652054/zoom/17?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=photos"
+            >Фотографии компании</a
+          >
+        </div>
+        <div class="dg-widget-link">
+          <a
+            href="http://2gis.kg/bishkek/center/74.644542,42.818229/zoom/16/routeTab/rsType/bus/to/74.644542,42.818229╎Астро, банкетный зал?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=route"
+            >Найти проезд до Астро, банкетный зал</a
+          >
+        </div>
+        <script
+          charset="utf-8"
+          src="https://widgets.2gis.com/js/DGWidgetLoader.js"
+        ></script>
+        <script charset="utf-8">
+          new DGWidgetLoader({
+            width: 640,
+            height: 600,
+            borderColor: "#a3a3a3",
+            pos: { lat: 42.818526183652054, lon: 74.64454650878908, zoom: 16 },
+            opt: { city: "bishkek" },
+            org: [{ id: "70000001055132178" }],
+          });
+        </script>
+        <noscript style="color: #c00; font-size: 16px; font-weight: bold"
+          >Виджет карты использует JavaScript. Включите его в настройках вашего
+          браузера.</noscript
+        >
+      </section>
+      <section class="form container">
+        <div class="form__content">
+          <h3>Тойго келесизби?</h3>
+          <div class="form__box">
+            <label class="form__select">
+              <input class="yes" type="radio" name="will-come" value="male" />
+              Ооба
+            </label>
+            <label class="form__select">
+              <input class="no" type="radio" name="will-come" value="female" />
+              Жок
+            </label>
+          </div>
+        </div>
+        <div class="form__content">
+          <h3>Аты жөнүнүз?</h3>
+          <div class="form__box">
+            <input class="form__inp" type="text" />
+          </div>
+        </div>
+        <button class="btn" disabled>Жөнөтүү</button>
+      </section>
+      <section class="footer container">
+        <div><img src="images/main-decor.svg" alt="main-decor" /></div>
+        <span>Той ээлери:</span>
+        <br />
+        <span>Кожо & Гүлзат</span>
+      </section>
+      <section class="date container">
+        <h2>Тойго калды:</h2>
+        <div class="date__inner">
+          <div>
+            <span class="time days"></span>
+            <span>күн</span>
+          </div>
+          <div>
+            <span class="time hours"></span>
+            <span>саат</span>
+          </div>
+          <div>
+            <span class="time minutes"></span>
+            <span>мүнөт</span>
+          </div>
+          <div>
+            <span class="time seconds"></span>
+            <span>секунд</span>
+          </div>
+        </div>
+      </section>
+      <div class="decor decor__two"></div>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
